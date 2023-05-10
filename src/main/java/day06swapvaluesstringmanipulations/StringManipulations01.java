@@ -69,6 +69,7 @@ public class StringManipulations01 {
         //Örnek 11: "s" String ini 5.index dahil olmak üzere bu indexten itibaren "i" karakteri
         // ile başlayıp başlamadığını kontrol ediniz.
 
+        // toffset : bu dizideki alt bölgenin başlangıç ofseti
         boolean isI=s.startsWith("i",5);
         System.out.println(isI);
 
