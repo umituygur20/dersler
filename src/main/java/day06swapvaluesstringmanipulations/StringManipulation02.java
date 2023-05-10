@@ -38,10 +38,35 @@ public class StringManipulation02 {
         System.out.println(n);   //Learxxx Java earxxx moxxxey
 
         // Örnek :6 "s" String'deki "e" karakterlerini siliniz .
-       String sil= s.replace("e","");
-        System.out.println(sil);
+        String sil = s.replace("e", "");
+        System.out.println(sil); //Larn Java arn mony
+
+        String t = "Ali 13 yasindadir";
+
+        //Örnek 7 : "t" String'deki tüm rakamları "*" çeviriniz.
+        //Note : Bir Grup datayı ifade etmek için "Regular Expressions" REGEX Kullanırız.
+        //Note Bir Grup datayı değiştirmek için replaceAll() kullanılır .
 
 
+        /*                  Meşhur Regex
+        1) Tüm Rakamlar ==> [0-9]
+        2) Tüm Küçük Harfler ==> [a-z]
+        3) Tüm Büyük Harfler ==> [A-Z]
+        4) Tüm Küçük ve Büyük Harfler ==> [a-zA-Z]
+        5) Tüm Harfler ve Rakamlar ==> [a-zA-Z0-9]
+        6) Tüm noktalama işaretleri ==> \\p{Punct}
+        7) Tüm sesli Harfler ==> [aeiouAEIOU]
+             x,q,w         ==> [xqw]
+        8) Küçük Harflerden farkli Tüm karakterler ==> [^a-z]
+        9) Tüm harflerden farkli tüm karakterler ==> [^a-zA-Z]
+
+
+
+
+         */
+
+       String degistir= t.replaceAll("[0-9]","*");
+        System.out.println(degistir);
 
     }
 }
