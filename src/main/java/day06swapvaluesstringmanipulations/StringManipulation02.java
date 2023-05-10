@@ -66,7 +66,7 @@ public class StringManipulation02 {
          */
 
        String degistir= t.replaceAll("[0-9]","*");
-        System.out.println(degistir);
+        System.out.println(degistir); //Ali ** yasindadir
 
     }
 }
