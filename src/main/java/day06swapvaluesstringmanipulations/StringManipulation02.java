@@ -61,11 +61,20 @@ public class StringManipulation02 {
         9) Tüm harflerden farkli tüm karakterler ==> [^a-zA-Z]
 
 
+        -- Alternatif REGEX KODLARI
+\\s     :space (boşluk)
+\\S     :space dışındaki tüm karakterler (buyuk S harfi)
+\\w     :harfler ve rakamlar (a-z,A-Z,0-9)
+\\W     :harfler ve rakamlar dışındaki tüm karakterler (buyuk W harfi)
+\\d     :digits (rakamlar 0-9)
+\\D     :rakamlar dışındaki tüm karakterler
+
+
 
 
          */
 
-       String degistir= t.replaceAll("[0-9]","*");
+        String degistir = t.replaceAll("[0-9]", "*");
         System.out.println(degistir); //Ali ** yasindadir
 
     }
