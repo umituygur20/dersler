@@ -58,8 +58,20 @@ public class StringManipulations01 {
 
         //Örnek 9: "s" String'deki "money kelimesinin var olup olmadığını kontrol ediniz.
 
-      boolean varmi=s.contains("money");
+      boolean varmi=s.contains("");
         System.out.println(varmi);
+
+       //Örnek 10: "s" String'deki belli bir harfle başlayıp başlamadığını kontrol ediniz.
+
+        boolean isStart = s.startsWith("Java");
+        System.out.println(isStart);
+
+        //Örnek 11: "s" String ini 5.index dahil olmak üzere bu indexten itibaren "i" karakteri
+        // ile başlayıp başlamadığını kontrol ediniz.
+
+        boolean isI=s.startsWith("i",5);
+        System.out.println(isI);
+
 
     }
 }
