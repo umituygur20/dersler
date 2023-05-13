@@ -55,11 +55,32 @@ public class StringManipulation01 {
 
         //Örnek 4 : Bir String'deki "Java" kelimesinin ilk olark kaçıncı index'te kullanıldığını gösteren kodu yazınız.
         //"Ah Java vah Java sensiz olmuyor Java."
-        //indexOf("Java") kullanımında siz "Java" kelimesinin ilk görünümündeki ilk harfin(yani J'nin)index'ini almış olursunuz.
 
+        //indexOf("Java") kullanımında siz "Java" kelimesinin ilk görünümündeki ilk harfin(yani J'nin)index'ini almış olursunuz.
         String ahJava="Ah Java vah Java sensiz olmuyor Java.";
         int idxJ= ahJava.indexOf("Java");
-        System.out.println(idxJ);
+        System.out.println(idxJ); // 3. index J yi veriyor.
+
+        //indexOf() methodu olmayan karakterler için kullanılırsa her zaman -1 return eder.
+        int idxjava=ahJava.indexOf("java");
+        System.out.println(idxjava);
+
+        //Örnek 5 : Bir String'de a, i , e karakterlerinin Son görünümlerinin indexleri toplamını ekrana yazdırınız.
+
+        String ornek5 = "Java is easy to learn";
+        int lastIndexA =  ornek5.lastIndexOf('a');
+        System.out.println(lastIndexA);
+
+        int lastIndexI = ornek5.lastIndexOf('i');
+        System.out.println(lastIndexI);
+
+        int lastIndexE =ornek5.lastIndexOf('e');
+        System.out.println(lastIndexE);
+
+        System.out.println("Bu indexlerin toplamı = " + (lastIndexA+lastIndexE+lastIndexI));
+
+        //lastIndexOf() methodu'da olmayan karakterler için kullanılırsa her zaman -1 verir .
+
     }
 
 
