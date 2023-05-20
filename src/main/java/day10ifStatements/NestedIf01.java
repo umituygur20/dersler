@@ -32,7 +32,8 @@ public class NestedIf01 {
                 b + c > a && a > Math.abs(b - c);
 
         if (ucgenmi) {
-            if (a == b && b == c && c == a) {
+
+            if (a == b && b == c) {
                 System.out.println("Hem Üçgen Hemde EŞKENAR ÜÇGEN !");
             } else {
                 System.out.println("ÜÇGEN ama EŞKENAR DEĞİL!!");
