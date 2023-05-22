@@ -20,6 +20,9 @@ public class Loops3 {
 
         }
 
-
+        // "break" ile "continue" arasındaki fark nedir ?
+        //"break" switch'in dışına çıkmak için loop'u kirmak için kullanılır.
+        //"continue" ise loop yaparken bazı elemanları isleme sokmamak için kullanılır.
+        // continue keyword'ü bir looptaki geçerli iteration'ı sonlandırıp sizi artırma azaltma bölümüne götürür.
     }
 }
