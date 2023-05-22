@@ -1,3 +1,5 @@
+package day12nestedternaryswitchloops;
+
 import java.util.Scanner;
 
 public class Switch04 {
@@ -45,5 +47,6 @@ public class Switch04 {
 
             }
         }
+
     }
 }
