@@ -1,6 +1,6 @@
 package day14loops;
 
-public class Lopps01 {
+public class Loops01 {
     public static void main(String[] args) {
         // Verilen bir string i ters ceviren kodu yaziniz
         //"Java" ==> "avaJ"
