@@ -15,7 +15,29 @@ public class KahveMakinesiDeneme {
 //  2.Filtre Kahve
 //  3.Espresso
 //        String hangiKahve oluşturun ve var olan kahvelerden birini yazınız.
-//         (örn: Türk Kahvesi,  ya da türk kahvesi.  --->  Büyük- küçük harf duyarlı olmaması için String methodu kullanın.)
+
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Hangi kahveyi istersiniz?");
+        String hangiKahve = scan.nextLine().toLowerCase();
+
+        switch (hangiKahve) {
+            case "türk kahvesi":
+                System.out.println("Türk Kahvesi hazırlanıyor ..");
+                break;
+            case "filtre kahve":
+                System.out.println("Filtre Kahveniz hazırlanıyor ..");
+                break;
+            case "espresso":
+                System.out.println("Espresso hazirlaniyor..");
+                break;
+            default:
+                System.out.println("Hatali tuslama yaptiniz.Lütfen tekrar deneyiniz.");
+                break;
+        }
+
+
+//         (örn: Türk Kahvesi,  ya da türk kahvesi.  --->  Büyük- küçük harf duyarlı olmaması için String manipulation methodu kullanın.)
 //                                                                                     todo 1. Koşul bölümü
 //        Eğer kahve Türk kahvesi ise, konsola = Türk kahvesi hazırlanıyor. yazsın.(Dümdüz Türk kahvesi yazmayın.
 //         String hangiKahve'yi çağırın!!)
@@ -70,7 +92,15 @@ public class KahveMakinesiDeneme {
 //                 */
 
 
+    }
+
+    public static void hangiKahve() {
+        String kahve1 = "Türk Kahvesi";
+        String kahve2 = "Filtre Kahve";
+        String kahve3 = "Espresso";
 
 
     }
+
+
 }
