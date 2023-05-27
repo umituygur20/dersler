@@ -34,8 +34,8 @@ public class KahveMakinesiDeneme {
             default:
                 System.out.println("Hatali tuslama yaptiniz.Lütfen tekrar deneyiniz.");
                 break;
-        }
 
+        }
 
 //         (örn: Türk Kahvesi,  ya da türk kahvesi.  --->  Büyük- küçük harf duyarlı olmaması için String manipulation methodu kullanın.)
 //                                                                                     todo 1. Koşul bölümü
@@ -93,14 +93,5 @@ public class KahveMakinesiDeneme {
 
 
     }
-
-    public static void hangiKahve() {
-        String kahve1 = "Türk Kahvesi";
-        String kahve2 = "Filtre Kahve";
-        String kahve3 = "Espresso";
-
-
-    }
-
 
 }
