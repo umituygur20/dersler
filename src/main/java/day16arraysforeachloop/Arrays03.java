@@ -52,7 +52,7 @@ public class Arrays03 {
         //Ayni sekilde Math.max() methoduda aynı mantik ile calisip max değeri verecek
 
 
-//        Örnek 2 :String bir Array olusuturnuz ve 6 eleman ekleyiniz , yellow'dan onceki elemanlari yazdiriniz
+//        Örnek 2 :String bir Array olusturunuz ve 6 eleman ekleyiniz , yellow'dan onceki elemanlari yazdiriniz
 
         String colors [] =new String[6];
 

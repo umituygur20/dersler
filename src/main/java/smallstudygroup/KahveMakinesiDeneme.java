@@ -18,7 +18,8 @@ public class KahveMakinesiDeneme {
 
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Hangi kahveyi istersiniz?");
+        System.out.println("Hangi kahveyi istersiniz? \n 1.Türk Kahvesi \n 2.Filtre Kahve \n 3.Espresso");
+
         String hangiKahve = scan.nextLine().toLowerCase();
 
         switch (hangiKahve) {
@@ -36,6 +37,7 @@ public class KahveMakinesiDeneme {
                 break;
 
         }
+
 
 //         (örn: Türk Kahvesi,  ya da türk kahvesi.  --->  Büyük- küçük harf duyarlı olmaması için String manipulation methodu kullanın.)
 //                                                                                     todo 1. Koşul bölümü

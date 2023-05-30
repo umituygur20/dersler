@@ -38,7 +38,7 @@ public class Arrays02 {
             totalChar = totalChar + brr[i].length();
             i++;
         }
-        System.out.println(totalChar);
+        System.out.println("karakter sayiari toplamı= "  +totalChar);
 
 
 //        for (int i =0 ; i<brr.length;i++){
@@ -74,7 +74,7 @@ public class Arrays02 {
         for (String w : brr) {
             sum = sum + w.length();
         }
-        System.out.println(sum);
+        System.out.println("For each ile : " +sum);
 
 
 
@@ -103,5 +103,5 @@ public class Arrays02 {
         for (int w:notlar) {
            toplam= toplam+w;
         }
-        System.out.println("ortalama not = " +(toplam/ notlar.length));    }
+        System.out.println("ortalama not = " + (toplam / notlar.length));    }
 }

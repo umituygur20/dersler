@@ -7,13 +7,6 @@ public class Arrays01 {
 
         int a = 13;
 
-
-
-
-
-
-
-
         // Bu yapının içine sadece bir tane data depolanabilir.
         //Ama biz code yazarken bir yapinin icine coklu data depolama ihtiyacı hissederiz
         //Bir yapinin icinde coklu data depolayabilme icin java Array yapisini olusturmustur.
@@ -46,7 +39,7 @@ public class Arrays01 {
         //Örnek 1 : Array'deki her elemanin sonuna ünlem isareti koyarak ekrana yazdiriniz.
 
         for (int i = 0; i < stdNames.length; i++) {
-            System.out.println(stdNames[i] + "!???");
+            System.out.println(stdNames[i] + "!");
         }
 
 
@@ -62,7 +55,7 @@ public class Arrays01 {
 ////eger array i konsolda gormek istiyorsak Arryas class indan to.String methodunu kullanicaz
 //// Eger 17. kodu yazdirmak istersek konsolda gordugumuz adres bu==> " [Ljava.lang.String;@19dfb72a "  goruruz.
 //// SEBEBİ;
-//// Array ler heap memory de reserve edilir. Heap memory cok buyu oldugundan java bir harita olusturur gibi
+//// Array ler heap memory de reserve edilir. Heap memory cok buyuk oldugundan java bir harita olusturur gibi
 ////java hemen bir adres olusturur. bunu stack memory e atar ki heap te aradigini kolay bulabilsin.
 
 //for (int i = 0; i<stdNames.length; i++) {
