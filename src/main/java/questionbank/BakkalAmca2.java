@@ -29,7 +29,6 @@ public class BakkalAmca2 {
 
         for (double w : gunlukKazanc) {
             ortalama += w;
-
         }
         ortalama /= days.length; // gunluk kazanc array'ini tektek gezdim '/ hepsini ortalama sepetine koydum / daha sonra toplam kazanci gunler sayisina boldum
         System.out.println(" ORTALAMA =  " + ortalama); //
@@ -38,10 +37,10 @@ public class BakkalAmca2 {
     }
 
     public static void ortalamaninUstundeKazancGunleri(String[] days, double[] gunlukKazanc) {
-        int index =0;
-        for (double  w:gunlukKazanc ){
-            if (w>ortalama){
-                System.out.println("Ortalamanin ustundeki kazanc gunleri " + days[index].toUpperCase()+" ");
+        int index = 0;
+        for (double w : gunlukKazanc) {
+            if (w > ortalama) {
+                System.out.println("Ortalamanin ustundeki kazanc gunleri " + days[index].toUpperCase() + " ");
             }
             index++;
         }
@@ -50,10 +49,10 @@ public class BakkalAmca2 {
 
     }
 
-    public static void ortalamaAltiKazancGunleri( String [] days, double [] gunlukKazanc){
-        int index =0;
-        for (double  w:gunlukKazanc ){
-            if (w<ortalama){
+    public static void ortalamaAltiKazancGunleri(String[] days, double[] gunlukKazanc) {
+        int index = 0;
+        for (double w : gunlukKazanc) {
+            if (w < ortalama) {
                 System.out.println("Ortalamanin altindaki kazanc gunleri " + days[index].toUpperCase());
             }
             index++;

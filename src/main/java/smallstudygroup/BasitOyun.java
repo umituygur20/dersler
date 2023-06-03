@@ -1,30 +1,10 @@
 package smallstudygroup;
-
 import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 public class BasitOyun {
     public static void main(String[] args) {
-//        bir for loop oluşturmak için öncelikle for yazıp parantezi koyuyoruz.
-//                ilk statement değişken ,
-//        ikinci statement olarak bu loop'un hangi kosulda devam edeceğinin kriterini giriyoruz .
-//                üçüncü olarak değişkenin nasıl değiştirileceğini giriyoruz.Increment * Decrement
 
-//        for (int i = 0 ; i<5 ; i++){
-//            System.out.println("Merhaba " + i);
-//        }
-//        System.out.println("---------------");
-//
-//        for ( int i = 5 ; i>0; i--){
-//            System.out.println("Merhaba " + i);
-//
-//        }
-
-        //While loop'u bir döngünün ne zaman biteceğini bilmediğimizde kullanıyoruz.
-
-// while loop örneği
-//main method //
 
         final String GAME_NUMBER = "Sayi tahmini";
         System.out.println(GAME_NUMBER + "oyuna hosgeldin! Oyunu baslatmak istiyor musun ? (Evet / Hayır)");
