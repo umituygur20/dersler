@@ -17,13 +17,11 @@ public class BasitOyun {
             sayGoodbye();
         }
     }
-
     public static void startGame() {
         getUsersName();
         getGuesses();
         sayGoodbye();
     }
-
 
     public static void getUsersName() {
         Scanner scanner = new Scanner(System.in);
