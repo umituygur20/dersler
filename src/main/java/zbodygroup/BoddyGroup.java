@@ -34,7 +34,9 @@ public class BoddyGroup {
         - Oyuncunun kalan hakları sıfır olduğunda, olumsuz bir mesaj ve doğru kelime gösterilmelidir.
         */
 
-        getUsersName();
+
+        getUsersName(); // Kullanıcıdan ismini aldık .
+
         Random random = new Random();
         Scanner input = new Scanner(System.in);
         ArrayList<String> words = new ArrayList<>();
