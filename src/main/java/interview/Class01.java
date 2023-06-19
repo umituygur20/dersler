@@ -69,9 +69,9 @@ public class Class01 {
 //        }
 
 
-        // STRING OLAN PIN kodunuzu kontrol eden bir kod yazınız.
+        // STRING OLAN PIN kodunuzu kontrol eden bir kod yazınız. //
 
-//
+
 //        System.out.println("pin numarasini girin");
 //        String pinNum = "umit.0123";
 //        int hak = 4;
@@ -129,6 +129,5 @@ public class Class01 {
         System.out.println("Girdiginiz cumlede " + harf + " harfi " + counter + " kere kullanilmis.");
 
     }
-
 }
 

@@ -20,15 +20,16 @@ public class Queues02 {
 
         System.out.println(line); //[Apple, Milk, Bread, Milk, Orange, Egg, Meat, Tomatoes]
 /**
- "      Queue" bir Interface'dir .Bu yüzden Constructor'i yoktur.
+        "Queue" bir Interface'dir .Bu yüzden Constructor'i yoktur.
             Dolayısı ilze Object Oluştururken new keyword'ünden sonra "Queue" kullanılamaz.
             Data Type'ı "Queue" olan bir Object oluşturmak için new keyword'ünden sonra
-        1) LinkedList veya  2) PriorityQueue Classları kullanılabilir.
+            1) LinkedList veya  2) PriorityQueue Classları kullanılabilir.
 
- "Queue" oluştururken constructor olarak PriorityQueue kullanırsanız elemanları kendi belirleyeceğiniz
+    "Queue" oluştururken constructor olarak PriorityQueue kullanırsanız elemanları kendi belirleyeceğiniz
     Kurala göre sıralama hakkınız olur .
 
  */
+
 
     }
 }
