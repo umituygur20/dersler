@@ -7,13 +7,15 @@ public class Arrays01 {
 
         int a = 13;
 
-        // Bu yapının içine sadece bir tane data depolanabilir.
-        //Ama biz code yazarken bir yapinin icine coklu data depolama ihtiyacı hissederiz
-        //Bir yapinin icinde coklu data depolayabilme icin java Array yapisini olusturmustur.
+        /**Bu yapının içine sadece bir tane data depolanabilir.
+            Ama biz code yazarken bir yapinin icine coklu data depolama ihtiyacı hissederiz
+            Bir yapinin icinde coklu data depolayabilme icin java Array yapisini olusturmustur.
+         */
 
-        //Array nasil olusturulur
+        /**Array nasil olusturulur*/
 
         String stdNames[] = new String[5];
+
 
         //Arrayler console'a nasil yazidirilir  ?
         //toString() methodunu kullanmadan yazdirirsaniz sadece array ismi ile yazdirirsaniz java o Array'in adresini yazdirir
