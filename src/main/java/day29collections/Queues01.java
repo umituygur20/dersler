@@ -32,6 +32,5 @@ public class Queues01 {
 //        System.out.println(depo.remove());  //Exception
 //        System.out.println(depo.element());  //Exception
 //        System.out.println(depo.peek()); // null
-
     }
 }
